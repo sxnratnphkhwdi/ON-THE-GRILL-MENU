@@ -183,3 +183,20 @@ footer {
     background: #f5f5f5;    /* พื้นหลังกันพื้นที่ว่าง */
     border-bottom: 1px solid #eee;
 }
+
+.menu-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    background: #f1f1f1;
+    padding: 1rem;
+
+    border-bottom: 1px solid #ddd;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
